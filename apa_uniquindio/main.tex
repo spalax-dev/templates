@@ -1,0 +1,97 @@
+\documentclass[12pt,letterpaper]{article}
+
+
+\usepackage[spanish]{babel}
+\usepackage{caption}
+\usepackage{csquotes} 
+\usepackage[style=apa]{biblatex}
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage[margin=2.54cm]{geometry}
+\usepackage{lipsum}
+
+\setmainfont{Arimo}
+\doublespacing
+\addbibresource{ref.bib}
+\graphicspath{{images/}}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue,
+  pdfauthor={autor1, autor2, etc},
+  pdftitle={Titulo},
+  pdfsubject={Asignatura},
+  pdfkeywords={Palabras clave}
+}
+
+\begin{document}
+
+% ================= PORTADA =================
+\thispagestyle{empty}
+
+\begin{center}
+    {\LARGE\textbf{TÍTULO DEL PROYECTO}}\\[2cm]
+
+    \textbf{Estudiantes:}\\[0.5cm]
+    NOMBRES 1 \\
+    NOMBRES 2 \\[3cm]
+
+    \includegraphics[height=4cm]{logo.png}\\[3cm]
+
+    \textbf{Universidad del Quindío} \\
+    \textbf{Facultad Ingeniería} \\
+    \textbf{Ingeniería de Sistemas y Computación} \\
+    NOMBRE DE LA ASIGNATURA \\
+    Armenia, Quindío\\
+    MES Y AÑO
+\end{center}
+
+\newpage
+
+% ================= CUERPO =================
+\pagestyle{plain}
+
+\tableofcontents
+\newpage
+
+% ================= INTRODUCCIÓN =================
+\addcontentsline{toc}{section}{Introducción}
+
+\lipsum[1] % REEMPLAZAR con texto real
+
+No olvidar usar referencias \parencite{name}
+
+% ================= SECCIÓN 1 =================
+\section{NOMBRE DE LA PRIMERA SECCIÓN}
+
+\lipsum[2]
+
+\subsection{NOMBRE DE LA SUBSECCIÓN}
+\lipsum[3]
+
+% ================= SECCIÓN 2 =================
+\section{NOMBRE DE LA SEGUNDA SECCIÓN}
+
+\lipsum[4]
+
+\subsection{NOMBRE DE LA SUBSECCIÓN}
+\lipsum[5]
+
+
+% ================= CONCLUSIONES =================
+\section{Conclusiones}
+
+\lipsum[8]
+
+% ================= BIBLIOGRAFÍA =================
+\newpage
+\printbibliography
+
+\end{document}

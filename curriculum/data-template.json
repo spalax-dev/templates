@@ -1,0 +1,129 @@
+{
+  "contact": {
+    "name": "Tu Nombre Completo",
+    "email": "tuemail@ejemplo.com",
+    "github": "https://github.com/tu-usuario",
+    "linkedin": "https://linkedin.com/in/tu-usuario",
+    "location": "Tu Ciudad, Tu País"
+  },
+  "profile": "Breve descripción de tu perfil profesional y experiencia. Menciona tus tecnologías principales y áreas de enfoque.",
+  "projects": [
+    {
+      "title": "Nombre del Proyecto 1",
+      "type": "Tipo de proyecto (Web, Móvil, CLI, etc.)",
+      "description": "Descripción del proyecto destacando tecnologías usadas, funcionalidades principales y logros.",
+      "tech": ["Tech1", "Tech2", "Tech3"],
+      "repo": "https://github.com/tu-usuario/proyecto-1"
+    },
+    {
+      "title": "Nombre del Proyecto 2",
+      "type": "Tipo de proyecto",
+      "description": "Descripción del proyecto destacando tecnologías usadas, funcionalidades principales y logros.",
+      "tech": ["Tech1", "Tech2", "Tech3"],
+      "repo": "https://github.com/tu-usuario/proyecto-2"
+    },
+    {
+      "title": "Nombre del Proyecto 3",
+      "type": "Tipo de proyecto",
+      "description": "Descripción del proyecto destacando tecnologías usadas, funcionalidades principales y logros.",
+      "tech": ["Tech1", "Tech2", "Tech3"],
+      "repo": "https://github.com/tu-usuario/proyecto-3"
+    }
+  ],
+  "otherProjects": [
+    {
+      "title": "Otro Proyecto",
+      "type": "Tipo",
+      "description": "Breve descripción del proyecto.",
+      "repo": "https://github.com/tu-usuario/otro-proyecto"
+    }
+  ],
+  "skills": {
+    "main": [
+      {
+        "id": "tech1",
+        "name": "Tecnología Principal 1",
+        "icon": "fas fa-icon",
+        "description": "Descripción de tu nivel y experiencia con esta tecnología."
+      },
+      {
+        "id": "tech2",
+        "name": "Tecnología Principal 2",
+        "icon": "fas fa-icon",
+        "description": "Descripción de tu nivel y experiencia con esta tecnología."
+      },
+      {
+        "id": "tech3",
+        "name": "Tecnología Principal 3",
+        "icon": "fas fa-icon",
+        "description": "Descripción de tu nivel y experiencia con esta tecnología."
+      },
+      {
+        "id": "tech4",
+        "name": "Tecnología Principal 4",
+        "icon": "fas fa-icon",
+        "description": "Descripción de tu nivel y experiencia con esta tecnología."
+      },
+      {
+        "id": "tech5",
+        "name": "Tecnología Principal 5",
+        "icon": "fas fa-icon",
+        "description": "Descripción de tu nivel y experiencia con esta tecnología."
+      }
+    ],
+    "others": [
+      {
+        "id": "tech6",
+        "name": "Tecnología Adicional 1",
+        "icon": "fas fa-icon",
+        "description": "Descripción breve."
+      },
+      {
+        "id": "tech7",
+        "name": "Tecnología Adicional 2",
+        "icon": "fas fa-icon",
+        "description": "Descripción breve."
+      },
+      {
+        "id": "tech8",
+        "name": "Tecnología Adicional 3",
+        "icon": "fas fa-icon",
+        "description": "Descripción breve."
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Nombre de tu Universidad o Institución",
+      "degree": "Tu Carrera o Título",
+      "startYear": "AAAA",
+      "endYear": "AAAA o Presente",
+      "location": "Ciudad, País",
+      "description": "Descripción de tu formación académica y áreas de enfoque."
+    }
+  ],
+  "learning": [
+    {
+      "date": "AAAA-MM",
+      "description": "Descripción de lo que estás aprendiendo o recientemente aprendiste."
+    }
+  ],
+  "events": [
+    {
+      "name": "Nombre del Evento",
+      "organizer": "Organizador o Lugar",
+      "year": "AAAA",
+      "description": "Breve descripción de tu participación."
+    }
+  ],
+  "languages": [
+    {
+      "name": "Idioma 1",
+      "level": "Nivel (Nativo, B2, B1, etc.)"
+    },
+    {
+      "name": "Idioma 2",
+      "level": "Nivel"
+    }
+  ]
+}

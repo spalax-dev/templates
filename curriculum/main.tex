@@ -1,0 +1,55 @@
+% CV Template - Generado desde data.json con LuaLaTeX
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{enumitem}
+\usepackage{fontspec}
+\setmainfont{Inter}
+\usepackage[margin=2cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\sffamily}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{15pt}{3pt}
+\usepackage{parskip}\setlength{\parskip}{0.5em}\setlength{\parindent}{0pt}
+\usepackage{hyperref}\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black}
+
+% Comandos personalizados
+\newcommand{\cvitem}[2]{\noindent \textbf{#1} \hfill {\small #2} \par}
+
+% Cargar datos desde JSON
+\directlua{require("lua/build")}
+
+\pagestyle{empty}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries\directlua{tex.print(NOMBRE)}\\[0.2cm]}
+{\small\directlua{tex.print(EMAIL)} 
+  \enspace·\enspace \href{\directlua{tex.print(GITHUB)}}{\directlua{tex.print(GITHUB_DISPLAY)}} 
+  \enspace·\enspace \href{\directlua{tex.print(LINKEDIN)}}{\directlua{tex.print(LINKEDIN_DISPLAY)}}
+  \enspace·\enspace \directlua{tex.print(LOCATION)}
+}
+\end{center}
+
+\section{Perfil Profesional}
+\vspace{0.25cm}
+\directlua{tex.print(PROFILE)}
+
+\section{Proyectos Destacados}
+\vspace{0.25cm}
+\directlua{tex.print(PROJECTS)}
+
+\section{Habilidades Técnicas}
+\vspace{0.25cm}
+\directlua{tex.print(SKILLS)}
+
+\section*{Participaciones}
+\vspace{0.25cm}
+\directlua{tex.print(EVENTS)}
+
+\section{Formación}
+\vspace{0.25cm}
+\directlua{tex.print(EDUCATION)}
+
+\section{Idiomas}
+\vspace{0.25cm}
+\directlua{tex.print(LANGUAGES)}
+
+\end{document}
