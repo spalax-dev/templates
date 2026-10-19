@@ -1,0 +1,60 @@
+\documentclass[journal]{IEEEtran}
+
+% --- Paquetes ---
+\usepackage[spanish]{babel}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=ieee]{biblatex}
+\addbibresource{ref.bib}
+\usepackage{lipsum} 
+
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Heros} % Fuente sans-serif para todo el texto
+\setsansfont{TeX Gyre Heros}
+\setmonofont{TeX Gyre Cursor} % Para el código fuente
+
+% --- Título y autores (EN EL PREÁMBULO) ---
+\title{TÍTULO DEL PROYECTO}
+
+\author{
+  \IEEEauthorblockN{Nombre 1 \and Nombre 2 \\[1.5ex]
+  {\normalsize Universidad del Quindío}\\
+  {\normalsize Facultad de Ingeniería}\\
+  {\normalsize Ingeniería de Sistemas y Computación}\\
+  {\normalsize NOMBRE DE LA ASIGNATURA}}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Resumen del documento (150--250 palabras). \lipsum[1]
+\end{abstract}
+
+\begin{IEEEkeywords}
+palabra clave, palabra clave, palabra clave
+\end{IEEEkeywords}
+
+\section{Introducción}
+\lipsum[2]
+
+No olvidar usar referencias \parencite{name}.
+
+\section{NOMBRE DE LA PRIMERA SECCIÓN}
+\lipsum[3]
+
+\subsection{Nombre de la sub-sección}
+\lipsum[4]
+
+\section{NOMBRE DE LA SEGUNDA SECCIÓN}
+\lipsum[5]
+
+\subsection{Nombre de la sub-sección}
+\lipsum[6]
+
+\section{Conclusiones}
+\lipsum[8]
+
+\printbibliography
+
+\end{document}
